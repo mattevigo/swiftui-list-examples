@@ -13,6 +13,7 @@
 		9F090FE92566ADC6002E5C73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F090FE82566ADC6002E5C73 /* Preview Assets.xcassets */; };
 		9F090FF42566ADC6002E5C73 /* swiftui_list_examplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F090FF32566ADC6002E5C73 /* swiftui_list_examplesTests.swift */; };
 		9F090FFF2566ADC6002E5C73 /* swiftui_list_examplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F090FFE2566ADC6002E5C73 /* swiftui_list_examplesUITests.swift */; };
+		9F0910102566AF1C002E5C73 /* InfiniteScrollingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F09100F2566AF1C002E5C73 /* InfiniteScrollingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9F090FFA2566ADC6002E5C73 /* swiftui-list-examplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-list-examplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F090FFE2566ADC6002E5C73 /* swiftui_list_examplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_list_examplesUITests.swift; sourceTree = "<group>"; };
 		9F0910002566ADC6002E5C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F09100F2566AF1C002E5C73 /* InfiniteScrollingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				9F090FE12566ADC5002E5C73 /* swiftui_list_examplesApp.swift */,
 				9F090FE32566ADC5002E5C73 /* ContentView.swift */,
+				9F09100F2566AF1C002E5C73 /* InfiniteScrollingList.swift */,
 				9F090FE52566ADC6002E5C73 /* Assets.xcassets */,
 				9F090FEA2566ADC6002E5C73 /* Info.plist */,
 				9F090FE72566ADC6002E5C73 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				9F090FE42566ADC5002E5C73 /* ContentView.swift in Sources */,
 				9F090FE22566ADC5002E5C73 /* swiftui_list_examplesApp.swift in Sources */,
+				9F0910102566AF1C002E5C73 /* InfiniteScrollingList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
